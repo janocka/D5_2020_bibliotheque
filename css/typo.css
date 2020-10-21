@@ -1,35 +1,81 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt:400|Poppins:400');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC:400|Poppins:400');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
 
-html {font-size: 100%;} /*16px*/
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  } /*16px*/
 
 body {
-  background-color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  line-height: 1.65;
-  color: #333;
 }
 
-p {margin-bottom: 1.15rem;}
+.titreVertical {
+  margin: 2.75rem 0 1.05rem;
+  font-family: 'Rammetto One', serif;
+  font-weight: 400;
+  line-height: 1.15;
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+.secondpage {
+  margin-left: 2%;
+  font-family: 'Rammetto One', serif;
+  font-weight: 800;
+  line-height: 4;
+  background:linear-gradient(-35deg,#66a488,#e9e2cf,#66a488);
+    background-repeat: repeat;
+    background-size:200% auto;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    animation:shine 3s linear infinite;
+    animation-direction:reverse;
+    @keyframes shine {
+      to {
+        background-position:200% center;
+      }
+    }
+  }
+
+p {
+  margin: 2.75rem 0 1.05rem;
+  font-family: 'Alegreya SC', serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #996939;
+}
+
+.pfooter {
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align: center;
+
+}
 
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1.05rem;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Rammetto One', serif;
   font-weight: 400;
   line-height: 1.15;
+  color: #68401e;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 7.594em;
+  font-size: 2.441em;
+  text-align: center;
+    color: #fff;
 }
 
-h2 {font-size: 5.063em;}
+h2 {font-size: 1.563em;}
 
-h3 {font-size: 3.375em;}
+h3 {font-size: 1.953em;}
 
-h4 {font-size: 2.25em;}
+h4 {font-size: 1.563em;}
 
-h5 {font-size: 1.5em;}
+h5 {font-size: 1.25em;}
 
-small, .text_small {font-size: 0.667em;}
+small, .text_small {font-size: 0.8em;}
