@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
-<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 body {
   display: flex;
@@ -7,7 +7,7 @@ body {
   align-items: center;
   min-height: 100vh;
   color: #FFF;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: 400;
   }
 
@@ -44,7 +44,7 @@ p {
   width: 450px;
   text-align: justify;
   color: #fff;
-  font-family: 'Flegrei', serif;
+  font-family: 'Merriweather', serif;
 }
 
 .frame {
@@ -61,19 +61,19 @@ p {
     font-family: 'Flegrei', serif;
 }
 
-.well {animation: well 3s infinite;}
-.I {animation: i 3s infinite;}
-.said {animation: said 3s infinite;}
-.it1 {animation: it1 3s infinite;}
-.once {animation: once 3s infinite;}
-.be {animation: be 3s infinite;}
-.fore {animation: fore 3s infinite;}
-.but {animation: but 3s infinite;}
-.it2 {animation: it2 3s infinite;}
-.bears {animation: bears 3s infinite;}
-.re {animation: re 3s infinite;}
-.peat {animation: peat 3s infinite;}
-.ing {animation: ing 3s infinite;}
+.pourquoi {animation: pourquoi 3s infinite;}
+.notre {animation: i 3s infinite;}
+.futur {animation: said 3s infinite;}
+.depend {animation: it1 3s infinite;}
+.des {animation: once 3s infinite;}
+.biblio {animation: be 3s infinite;}
+.de1 {animation: fore 3s infinite;}
+.la {animation: but 3s infinite;}
+.lecture {animation: it2 3s infinite;}
+.et {animation: bears 3s infinite;}
+.de2 {animation: re 3s infinite;}
+.l {animation: peat 3s infinite;}
+.imagination {animation: ing 3s infinite;}
 
 
 
@@ -208,3 +208,24 @@ p {
   80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
   100% { transform: scale(1)   translate(10px, -30px); }
 }
+
+
+.firstpage {
+  margin-left: 2%;
+  font-family: 'Rammetto One', serif;
+  font-weight: 800;
+  line-height: 4;
+  font-size: 1.7em;
+  background:linear-gradient(-35deg,#fff,#ff3eb2,#fff);
+    background-repeat: repeat;
+    background-size:200% auto;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    animation:shine 3s linear infinite;
+    animation-direction:reverse;
+    @keyframes shine {
+      to {
+        background-position:200% center;
+      }
+    }
+  }

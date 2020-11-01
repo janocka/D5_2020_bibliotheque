@@ -1,4 +1,4 @@
-body{
+body {
   background: #fef8ed;
 }
 
@@ -201,6 +201,7 @@ nav ul {
       border-radius: 0px 0px 10px 10px;
       transform: rotate(-171deg);
       transition: all .4s ease;
+
 }
 
 #li1:hover {
